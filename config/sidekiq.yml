@@ -1,0 +1,9 @@
+---
+:queues:
+  - parent_queue
+  - first_child_queue
+  - second_child_queue
+  - third_child_queue
+:dynamic: true
+:blocking:
+  - first_child_queue
